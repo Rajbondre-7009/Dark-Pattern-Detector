@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head><title>Dark Pattern Detector</title></head>
+<head>
+  <title>Dark Pattern Detector</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 50px; }
+    button { padding: 10px 20px; margin: 10px; }
+  </style>
+</head>
 <body>
-  <h2>Dashboard</h2>
+
+  <h1>Dark Pattern Detector</h1>
+
+  <input type="text" placeholder="Enter website URL"><br><br>
+  <button onclick="detect()">Scan URL</button>
   <button>Upload Screenshot</button>
-  <button>Scan Website URL</button>
+
+  <h3 id="result"></h3>
+
+  <script>
+    function detect() {
+      document.getElementById("result").innerText = "No dark pattern detected";
+    }
+  </script>
+
 </body>
 </html>
