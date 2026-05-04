@@ -1,0 +1,4 @@
+Dark Pattern Detector Report
+
+Result: No dark pattern found
+Date: Sample
