@@ -1,7 +1,10 @@
-print("Backend server running")
+def login(email, password):
+    return "Login successful"
 
-def login():
-    return "User logged in"
+def signup(email, password):
+    return "Signup successful"
 
-def signup():
-    return "User registered"
+def run_server():
+    print("Server running...")
+
+run_server()
